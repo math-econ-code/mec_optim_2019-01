@@ -36,9 +36,9 @@ I will provide installation instructions for Windows and Mac users. If you are u
    ```
 
 4. Install the R kernel 
-    	```
-  install.packages('IRkernel')
-  IRkernel::installspec()
+    ```
+    install.packages('IRkernel')
+    IRkernel::installspec()
 	```
 
 5. Open Jupyter notebook using Anaconda Navigator or by typing 
