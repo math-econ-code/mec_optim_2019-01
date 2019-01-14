@@ -76,7 +76,7 @@ We will need a license to use Gurobi, (which is usually expensive), but there is
 
 1. Install git
    * **Mac users:** open terminal and run ```git --version```. If you don't have git installed, you will be prompted to do so.
-   * **Windows users:** go to the [Git for Windows](https://gitforwindows.org/)](https://desktop.github.com/) download page and install. I recommend also installing [notepad++](https://notepad-plus-plus.org/) for a text editor, unless you already use SublimeText or vim. Alternatively [GitHub Desktop](https://desktop.github.com/) is a nice GUI for Git.
+   * **Windows users:** go to the [Git for Windows](https://gitforwindows.org/)] download page and install. I recommend also installing [notepad++](https://notepad-plus-plus.org/) for a text editor, unless you already use SublimeText or vim. Alternatively [GitHub Desktop](https://desktop.github.com/) is a nice GUI for Git.
 
 2. Open git
 
