@@ -21,7 +21,7 @@ model$A <- matrix(c(1, 2, 3, 1, 1, 0), nrow = 2, ncol = 3, byrow = TRUE)
 result <- gurobi(model, list())
 
 ## Other packages
-install.packages(c("nloptr", "nleqslv", "microbenchmark", "Rglpk", "magick", "igraph", "tidyverse", "rgdal", "rdist"))
+install.packages(c("nloptr", "nleqslv", "microbenchmark", "Rglpk", "magick", "igraph", "tidyverse", "rgdal", "rdist", "tranport", "geometry"))
 install.packages("devtools")
 
 ## Run during the break!
