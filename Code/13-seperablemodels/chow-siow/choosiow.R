@@ -1,17 +1,14 @@
 thepath = getwd()
-load(paste0(thepath,"/ChooSiowData/nSinglesv4.RData"), verbose = FALSE)
-load(paste0(thepath,"/ChooSiowData/nMarrv4.RData"), verbose = FALSE)
-load(paste0(thepath,"/ChooSiowData/nAvailv4.RData"), verbose = FALSE)
 
-nbCateg = 25 # keep only the 16-40 yo population
-nSingles = nSingles70n
-marr = marr70nN
-nAvail = avail70n
+nSingles= read.table(paste0(thepath, "/n_singles.txt"))
+marr = read.table(paste0(thepath, "/marr.txt"))
+nAvail = read.table(paste0(thepath, "/n_avail.txt"))
+
+nbCateg = 25  # keep only the 16-40 yo population
 
 muhat_x0 = nSingles[1:nbCateg,1]
 muhat_0y = nSingles[1:nbCateg,2]
-muhat_xy = marr[[1]][1:nbCateg,1:nbCateg]
-
+muhat_xy = as.matrix(marr[1:nbCateg,1:nbCateg])
 
 Nh = sum(muhat_xy)+sum(muhat_x0)+sum(muhat_0y)
 
