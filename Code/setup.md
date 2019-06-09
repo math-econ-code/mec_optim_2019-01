@@ -32,7 +32,7 @@ I will provide installation instructions for Windows and Mac users. If you are u
    If `R` is in your path, otherwise navigate there. Default for Windows is 
 
    ```
-   cd "C:\Program Files\R\R-3.5.2\bin"
+   cd "C:\Program Files\R\R-3.6.0\bin"
    ```
 
 4. Install the R kernel 
